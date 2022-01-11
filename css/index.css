@@ -7,5 +7,17 @@ h1{
     text-align: center;
     text-transform: capitalize;
     text-decoration: double;
+
     
+}
+
+img{
+    position: relative;
+    left: 550px;
+    border: 2PX dotted white;
+    box-shadow: 1px 9px white;
+}
+
+p{
+
 }
