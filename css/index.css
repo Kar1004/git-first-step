@@ -1,7 +1,31 @@
 body{
     background-color: cornflowerblue;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    position: relative;
+    left: 100px;
+    margin: 0px;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin: 200px;
+   
+
 }
 
+li{
+    border: 3px solid black;
+    list-style-type: none;
+    font-size: 40px;
+    margin: 50px;
+}
+a{
+    text-decoration: none;
+}
 h1{
     color:cornsilk;
     text-align: center;
@@ -15,9 +39,15 @@ img{
     position: relative;
     left: 550px;
     border: 2PX dotted white;
-    box-shadow: 1px 9px white;
+    box-shadow: 1px 9GITpx white;
 }
 
 p{
+    border: 2px solid white;
+    background-color: white;
+    text-transform: uppercase;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 3px;
 
 }
